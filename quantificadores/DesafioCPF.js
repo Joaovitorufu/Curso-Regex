@@ -3,4 +3,4 @@ const texto = `CPF dos aprovados:
     - 123.122.643-63
     - 111.333.555-23
 `
-console.log(texto.match(/\d.{13}/g));
+console.log(texto.match(/\d.{1,}/g));
